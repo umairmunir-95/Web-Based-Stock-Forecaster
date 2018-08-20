@@ -1,0 +1,11 @@
+<?php
+session_start();
+unset($_SESSION['userName']);
+unset($_SESSION['adminName']);
+//session_destroy(); 
+//if($_Session["userName"]=="")
+//{
+	header('location:/project/index.php');
+	//exit();
+//}
+?>
